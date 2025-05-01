@@ -3,7 +3,7 @@ import Container from "@/components/Container";
 import axios from "axios";
 import { ChangeEvent, useState } from "react";
 import cookies from "js-cookie";
-import { redirect } from "next/navigation";
+import { redirect, useRouter } from "next/navigation";
 function Dashboard() {
   const [newProducts, setNewProducts] = useState([
     {
@@ -23,6 +23,7 @@ function Dashboard() {
     const { name, value } = e.target;
     setNewProducts({ ...newProducts, [name]: value });
   };
+  const router = useRouter();
   const handleSubmit = (e) => {
     axios({
       method: "POST",
@@ -35,6 +36,7 @@ function Dashboard() {
         image: newProducts.image,
       },
     });
+    router.push("/store");
   };
   return (
     <div className="bg-gray-100 h-screen " dir="rtl">

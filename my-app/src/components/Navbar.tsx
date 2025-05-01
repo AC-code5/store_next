@@ -18,7 +18,7 @@ function Navbar() {
     },
     {
       href: "/dashboard",
-      title: "داشبورد  ",
+      title: "داشبورد",
     },
     {
       href: "/login",

@@ -2,73 +2,66 @@
   "products": [
     {
       "id": "1",
-      "title": "محصول 1",
-      "description": "توضیحات محصول 1",
-      "price": 20,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3ZPwsu82XUpIplusWqKHHh5EeYwtqva9_Uur71-EInPMQKOzRZYa4CBNpM7kM9pzTk5w&usqp=CAU"
+      "title": " samsung s25 Ultra",
+      "description": "این گوشی  بهترین گوشی سامسونگ است و یکی از گوشی های پرچمدار در بازار است",
+      "price": 123000000,
+      "image": "https://api2.zoomit.ir/media/6791f141902ce99e63fe388e?w=1920&q=75"
     },
     {
       "id": "2",
-      "title": "محصول 2",
-      "description": "توضیحات محصول 2",
-      "price": 30,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQHu-_XOki3l7AaxxGfvnIlYOE9tIG534g4w&s"
+      "title": "iphone 15 pro max",
+      "description": "این گوشی یکی از بهترین گوشی های اپل است",
+      "price": 145000000,
+      "image": "https://api2.zoomit.ir/media/652d2111eb21a6b54f51348a"
     },
     {
       "id": "3",
-      "title": "محصول 3",
-      "description": "توضیحات محصول 3",
-      "price": 40,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3ZPwsu82XUpIplusWqKHHh5EeYwtqva9_Uur71-EInPMQKOzRZYa4CBNpM7kM9pzTk5w&usqp=CAU"
+      "title": " Xiaomi Redmi Note 13 Pro Plus",
+      "description": "این گوشی یکی از بهترین گوشی های شیائومی است",
+      "price": 23000000,
+      "image": "https://api2.zoomit.ir/media/xiaomi-redmi-note-13-pro-plus-front-back-panel-display-camera-black-66112915bd4454ff2d89afd2"
     },
     {
       "id": "4",
-      "title": "محصول 4",
-      "description": "توضیحات محصول 4",
-      "price": 50,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3ZPwsu82XUpIplusWqKHHh5EeYwtqva9_Uur71-EInPMQKOzRZYa4CBNpM7kM9pzTk5w&usqp=CAU"
+      "title": "Nothing Phone 2",
+      "description": "این گوشی یکی از بهترین گوشی های برند نوئتینگ است",
+      "price": 40000000,
+      "image": "https://api2.zoomit.ir/media/652d207ceb21a6b54f511616?w=1920&q=75"
     },
     {
       "id": "5",
-      "title": "محصول 5",
-      "description": "توضیحات محصول 5",
-      "price": 60,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3ZPwsu82XUpIplusWqKHHh5EeYwtqva9_Uur71-EInPMQKOzRZYa4CBNpM7kM9pzTk5w&usqp=CAU"
+      "title": "A36 samsung",
+      "description": "این گوشی یکی از بهترین میان رده های گوشی های سامسونگ است",
+      "price": 25000000,
+      "image": "https://api2.zoomit.ir/media/67c440ae07196c81a71d49da"
     },
     {
       "id": "6",
-      "title": "محصول 6",
-      "description": "توضیحات محصول 6",
-      "price": 70,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3ZPwsu82XUpIplusWqKHHh5EeYwtqva9_Uur71-EInPMQKOzRZYa4CBNpM7kM9pzTk5w&usqp=CAU"
+      "title": "A56 samsung",
+      "description": "این گوشی یکی از بهترین میان رده های گوشی های سامسونگ است",
+      "price": 30000000,
+      "image": "https://api2.zoomit.ir/media/67c43dd407196c81a71d497c?w=1920&q=75"
     },
     {
       "id": "7",
-      "title": "محصول 7",
-      "description": "توضیحات محصول 7",
-      "price": 80,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3ZPwsu82XUpIplusWqKHHh5EeYwtqva9_Uur71-EInPMQKOzRZYa4CBNpM7kM9pzTk5w&usqp=CAU"
+      "title": "Xiaomi 14 Ultra",
+      "description": "این گوشی یکی از پرچمدارترین گوشی های شیائومی است",
+      "price": 92000000,
+      "image": "https://api2.zoomit.ir/media/65d781a6412e5bb22d8654ca?w=384&q=75"
     },
     {
       "id": "8",
-      "title": "محصول 8",
-      "description": "توضیحات محصول 8",
-      "price": 90,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3ZPwsu82XUpIplusWqKHHh5EeYwtqva9_Uur71-EInPMQKOzRZYa4CBNpM7kM9pzTk5w&usqp=CAU"
+      "title": "iphone 16 proMax",
+      "description": "این گوشی بهترین گوشی شرکت اپل در حال حاضر است",
+      "price": 215000000,
+      "image": "https://api2.zoomit.ir/media/66df4d982d36dcc78153ee45?w=1920&q=75"
     },
     {
-      "id": "9",
-      "title": "محصول 9",
-      "description": "توضیحات محصول 9",
-      "price": 100,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3ZPwsu82XUpIplusWqKHHh5EeYwtqva9_Uur71-EInPMQKOzRZYa4CBNpM7kM9pzTk5w&usqp=CAU"
-    },
-    {
-      "id": "10",
-      "title": "محصول 10",
-      "description": "توضیحات محصول 10",
-      "price": 110,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3ZPwsu82XUpIplusWqKHHh5EeYwtqva9_Uur71-EInPMQKOzRZYa4CBNpM7kM9pzTk5w&usqp=CAU"
+      "id": "564",
+      "title": "s24Ultra",
+      "description": "این گوشی یکی از پرچمداران سامسونگ در زمان خود بود",
+      "price": "8000000",
+      "image": "https://api2.zoomit.ir/media/66446dbd772792639debb110?w=1920&q=75"
     }
   ],
   "discounts": [
