@@ -1,0 +1,8 @@
+{
+  "builds": [
+    {
+      "src": "src/app/api/json-server.js",
+      "use": "@vercel/node"
+    }
+  ]
+}

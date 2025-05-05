@@ -2,6 +2,7 @@ import Container from "@/components/Container";
 import ProductItem, { IProductList } from "@/components/ProductItem";
 import Link from "next/link";
 import Pagination from "@/components/Pagination";
+import Footer from "@/components/Footer";
 
 interface IstoreProps {
   searchParams: {
@@ -67,6 +68,7 @@ async function Store({ searchParams }: IstoreProps) {
           </div>
         )}
       </div>
+      <Footer />
     </Container>
   );
 }

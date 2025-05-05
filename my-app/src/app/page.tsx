@@ -1,4 +1,5 @@
 import Container from "@/components/Container";
+import Footer from "@/components/Footer";
 import Link from "next/link";
 
 export default function Home() {
@@ -77,6 +78,7 @@ export default function Home() {
               </button>
             </div>
           </div>
+        <Footer />
         </div>
       </Container>
     </div>

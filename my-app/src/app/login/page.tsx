@@ -11,7 +11,10 @@ function Login() {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    if (username === "admin" && password === "1234") {
+    if (
+      (username === "admin" && password === "1234") ||
+      (username === "mahdi" && password === "1386")
+    ) {
       cookies.set("token", "1234567890", {
         expires: 7,
       });
@@ -63,7 +66,7 @@ function Login() {
                 ورود
               </button>
             </form>
-            <div className="mt-6 text-center text-sm text-gray-500">
+            <div className="mt-6 text-center text-sm text-gray-500" dir="rtl">
               <p>نام کاربری: admin</p>
               <p>رمز عبور: 1234</p>
             </div>

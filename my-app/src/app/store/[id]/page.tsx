@@ -17,13 +17,16 @@ async function Product({ params }: IProduct) {
         <div className="col-span-9 mt-8 shadow-md p-3" dir="rtl">
           <h1 className="text-2xl font-bold">{data.title} </h1>
           <p className="text-gray-500">{data.description}</p>
-          <p className="text-gray-500">قیمت: {formatNumber(data.price)} تومان</p>
+          <p className="text-gray-500">
+            قیمت: {formatNumber(data.price)} تومان
+          </p>
           <AddToCart id={params.id} />
         </div>
         <div className="col-span-3">
           <img src={data.image} className="w-full h-full object-cover" />
         </div>
       </div>
+  
     </Container>
   );
 }
