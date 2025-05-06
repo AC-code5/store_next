@@ -26,7 +26,6 @@ async function Product({ params }: IProduct) {
           <img src={data.image} className="w-full h-full object-cover" />
         </div>
       </div>
-  
     </Container>
   );
 }

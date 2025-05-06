@@ -39,7 +39,7 @@ export function ShopingCartContextProvider({
 
   const handelIncreaseProductQuantity = (id: number) => {
     setCartItems((prev) => {
-      let IsNotProductExist = prev.find((item) => item.id === id) == null;
+      const IsNotProductExist = prev.find((item) => item.id === id) == null;
 
       if (IsNotProductExist) {
         return [...prev, { id: id, quantity: 1 }];
@@ -57,7 +57,7 @@ export function ShopingCartContextProvider({
 
   const handelDecreaseProductQuantity = (id: number) => {
     setCartItems((prev) => {
-      let IsLastOne = prev.find((item) => item.id == id)?.quantity == 1;
+      const IsLastOne = prev.find((item) => item.id == id)?.quantity == 1;
       if (IsLastOne) {
         return prev.filter((item) => item.id != id);
       } else {
