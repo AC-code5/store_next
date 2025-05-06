@@ -17,7 +17,7 @@ async function Product({ params }: PageProps) {
     <Container>
       <div className="grid grid-cols-12 gap-4">
         <div className="col-span-9 mt-8 shadow-md p-3" dir="rtl">
-          <h1 className="text-2xl font-bold">{data.title} </h1>
+          <h1 className="text-2xl font-bold">{data.title}</h1>
           <p className="text-gray-500">{data.description}</p>
           <p className="text-gray-500">
             قیمت: {formatNumber(data.price)} تومان
@@ -27,8 +27,8 @@ async function Product({ params }: PageProps) {
         <div className="col-span-3">
           <img
             src={data.image}
-            className="w-full h-full object-cover"
             alt={data.title}
+            className="w-full h-full object-cover"
           />
         </div>
       </div>
