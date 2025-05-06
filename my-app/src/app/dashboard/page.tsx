@@ -24,7 +24,7 @@ function Dashboard() {
     setNewProducts({ ...newProducts, [name]: value });
   };
   const router = useRouter();
-  const handleSubmit = (e) => {
+  const handleSubmit = () => {
     axios({
       method: "POST",
       url: "http://localhost:3001/products",

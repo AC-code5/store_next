@@ -55,41 +55,6 @@
       "description": "این گوشی بهترین گوشی شرکت اپل در حال حاضر است",
       "price": 215000000,
       "image": "https://api2.zoomit.ir/media/66df4d982d36dcc78153ee45?w=1920&q=75"
-    },
-    {
-      "id": "564",
-      "title": "s24Ultra",
-      "description": "این گوشی یکی از پرچمداران سامسونگ در زمان خود بود",
-      "price": "80000000",
-      "image": "https://api2.zoomit.ir/media/66446dbd772792639debb110?w=1920&q=75"
-    },
-    {
-      "id": "574",
-      "title": "S24",
-      "description": "یکی از پرچمداران بازار",
-      "price": "100000",
-      "image": "https://api2.zoomit.ir/media/66446dbd772792639debb110?w=1920&q=75"
-    },
-    {
-      "id": "467",
-      "title": "s24",
-      "description": "این گوشی یکی از پرچمداران بازار جهانیست",
-      "price": "8000000",
-      "image": "https://api2.zoomit.ir/media/66446dbd772792639debb110?w=1920&q=75"
-    },
-    {
-      "id": "162",
-      "title": "s24",
-      "description": "این گوشی یکی از بهترین گوشی های بازار است",
-      "price": "1000",
-      "image": "https://api2.zoomit.ir/media/66446dbd772792639debb110?w=1920&q=75"
-    },
-    {
-      "id": "92",
-      "title": "s24",
-      "description": "این گوشی یکی از بهترین گوشی های بازار موبایل جهانی است",
-      "price": "10000",
-      "image": "https://api2.zoomit.ir/media/66446dbd772792639debb110?w=1920&q=75"
     }
   ],
   "discounts": [

@@ -7,7 +7,6 @@ interface IAddToCart {
 }
 function AddToCart({ id }: IAddToCart) {
   const {
-    cartItems,
     handelIncreaseProductQuantity,
     getProductQuantity,
     handelDecreaseProductQuantity,
