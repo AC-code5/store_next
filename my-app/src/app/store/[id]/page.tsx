@@ -2,15 +2,17 @@ import Container from "@/components/Container";
 import { IProductItem } from "@/components/ProductItem";
 import AddToCart from "@/components/AddToCart";
 import { formatNumber } from "@/utils/number";
-interface IProduct {
+
+interface PageProps {
   params: {
-    promise: Promise<{ id: string }>;
+    id: string;
   };
-  searchParams: Promise<{ id: string }>;
 }
-async function Product({ params }: IProduct) {
+
+async function Product({ params }: PageProps) {
   const result = await fetch(`http://localhost:3001/products/${params.id}`);
   const data = (await result.json()) as IProductItem;
+
   return (
     <Container>
       <div className="grid grid-cols-12 gap-4">
@@ -23,10 +25,15 @@ async function Product({ params }: IProduct) {
           <AddToCart id={params.id} />
         </div>
         <div className="col-span-3">
-          <img src={data.image} className="w-full h-full object-cover" />
+          <img
+            src={data.image}
+            className="w-full h-full object-cover"
+            alt={data.title}
+          />
         </div>
       </div>
     </Container>
   );
 }
+
 export default Product;
