@@ -16,7 +16,7 @@
 
 - [Next.js](https://nextjs.org/)
 - React
--  / Tailwind CSS 
+- Tailwind CSS 
 - Git & GitHub برای کنترل نسخه
 - json server به عنوان api 
 
