@@ -15,8 +15,9 @@ async function Product({ params }: PageProps) {
 
   return (
     <Container>
-      <div className="grid grid-cols-12 gap-4">
-        <div className="col-span-9 mt-8 shadow-md p-3" dir="rtl">
+      <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
+        {/* بخش اطلاعات محصول */}
+        <div className="col-span-12 md:col-span-9 mt-8 shadow-md p-3" dir="rtl">
           <h1 className="text-2xl font-bold">{data.title}</h1>
           <p className="text-gray-500">{data.description}</p>
           <p className="text-gray-500">
@@ -24,11 +25,14 @@ async function Product({ params }: PageProps) {
           </p>
           <AddToCart id={params.id} />
         </div>
-        <div className="col-span-3">
+
+        {/* بخش تصویر محصول */}
+        <div className="col-span-12 md:col-span-3">
           <img
             src={data.image}
             alt={data.title}
-            className="w-full h-full object-cover"
+            className="w-full h-auto object-cover rounded-md"
+            loading="lazy"
           />
         </div>
       </div>
